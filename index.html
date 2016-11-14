@@ -25,6 +25,8 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
+					
+					<!-- Section 1 -->
 					<section data-markdown>
 						<script type="text/template">
 				        ## [Docker](https://www.docker.com/) for Development
@@ -34,9 +36,116 @@
 				        Getting started with Docker for development environments.
 				    </script>
 					</section>
-					<section>Slide 1: Subslide 2</section>
+
+					<section data-markdown>
+						<script type="text/template">
+						## What is Docker?
+						</script>
+					</section>
+					<section>
+				    <h2>In a Nutshell</h2>
+				    <p>
+				    	<blockquote>Docker is used for creating encapsulated linux environments, called containers, each running its own copy of linux.
+				    </p>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+						## Docker is Lightweight
+						* <span class="fragment highlight-current-blue">Containers use a shared kernel</span>
+						* <span class="fragment highlight-current-blue">Containers start instantly and use less memory</span>
+						* <span class="fragment highlight-current-blue">Use image constructed in layers</span>
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+						## Docker is Open
+						* <span class="fragment highlight-current-blue">Docker is Free!</span>
+						* <span class="fragment highlight-current-blue">Containers are shareable</span>
+						* <span class="fragment highlight-current-blue">Support for Linux, Windows, and Mac OSX</span>
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+						## Docker is Secure
+						* <span class="fragment highlight-current-blue">Containers are isolated</span>
+						* <span class="fragment highlight-current-blue">Transient environments</span>
+						* <span class="fragment highlight-current-blue">Access configured for each container</span>
+						</script>
+					</section>
+
 				</section>
-				<section>Slide 2</section>
+				
+
+
+				<!-- Section 2 -->
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+						## Docker vs other methods
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## MAMP / WAMP / XAMPP
+							* <span class="fragment highlight-current-blue">Lack of Sandboxing, files often linger</span>
+							* <span class="fragment highlight-current-blue">Difficult to share configuration</span>
+							* <span class="fragment highlight-current-blue">Lack of sharability</span>
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Virtual Machine
+							* <span class="fragment highlight-current-blue">Demands higher amount of resources</span>
+							* <span class="fragment highlight-current-blue">Switch cost is higher between projects</span>
+							* <span class="fragment highlight-current-blue">Does not used a shared kernel</span>
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Vagrant
+							* <span class="fragment highlight-current-blue">Dependent on Virtual Box or other VM provider	</span>
+							* <span class="fragment highlight-current-blue">Guaranteed resources at hardware level</span>
+							* <span class="fragment highlight-current-blue">Support for Unix and Windows</span>
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+						## Docker vs Virtual Machines
+
+						![Alt](/assets/docker-vs-vm.jpg "docker vs vm")
+						</script>
+					</section>
+				</section>
+
+				<!-- Section 3 -->
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+						## Docker is shareable
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## DockerFile
+							![Alt](/assets/example-dockerfile.png "dockerfile example")
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Docker Compose
+							![Alt](/assets/example-docker-compose.png "docker compose example")
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Docker Hub
+							![Alt](/assets/example-docker-hub.png "docker hub example")
+						</script>
+					</section>
+				</section>
+
+
+
 			</div>
 		</div>
 
